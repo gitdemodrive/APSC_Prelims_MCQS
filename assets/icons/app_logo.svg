@@ -1,0 +1,31 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Ashoka Chakra (Wheel) -->
+  <circle cx="100" cy="100" r="80" fill="#1A237E"/>
+  <circle cx="100" cy="100" r="70" fill="#FFFFFF"/>
+  <circle cx="100" cy="100" r="15" fill="#1A237E"/>
+  
+  <!-- 24 spokes of the wheel -->
+  <g stroke="#1A237E" stroke-width="4">
+    <!-- Vertical and horizontal spokes -->
+    <line x1="100" y1="30" x2="100" y2="170" />
+    <line x1="30" y1="100" x2="170" y2="100" />
+    
+    <!-- Diagonal spokes -->
+    <line x1="48" y1="48" x2="152" y2="152" />
+    <line x1="152" y1="48" x2="48" y2="152" />
+    
+    <!-- Additional spokes at 15-degree intervals -->
+    <line x1="79" y1="34" x2="121" y2="166" />
+    <line x1="34" y1="79" x2="166" y2="121" />
+    <line x1="121" y1="34" x2="79" y2="166" />
+    <line x1="166" y1="79" x2="34" y2="121" />
+    
+    <line x1="62" y1="38" x2="138" y2="162" />
+    <line x1="38" y1="62" x2="162" y2="138" />
+    <line x1="138" y1="38" x2="62" y2="162" />
+    <line x1="162" y1="62" x2="38" y2="138" />
+  </g>
+  
+  <!-- Text "APSC" -->
+  <text x="100" y="190" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1A237E" text-anchor="middle">APSC PRELIMS</text>
+</svg>
