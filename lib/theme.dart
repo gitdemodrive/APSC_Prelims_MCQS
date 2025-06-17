@@ -2,36 +2,36 @@ import 'package:flutter/material.dart';
 
 class AppTheme {
   // Colors
-  static const Color primaryColor = Color(0xFF1A237E); // Deep Indigo
-  static const Color accentColor = Color(0xFF4CAF50); // Green
-  static const Color backgroundColor = Color(0xFFF5F5F5); // Light Grey
-  static const Color cardColor = Colors.white;
-  static const Color textPrimaryColor = Color(0xFF212121); // Almost Black
-  static const Color textSecondaryColor = Color(0xFF757575); // Grey
-  static const Color successColor = Color(0xFF4CAF50); // Green
-  static const Color errorColor = Color(0xFFE53935); // Red
+  static const Color primaryColor = Color(0xFF4042e3);
+  static const Color accentColor = Color(0xFF6264e7);
+  static const Color backgroundColor = Color(0xFFF5F5F5);
+  static const Color cardColor = Color(0xFFFFFFFF);
+  static const Color errorColor = Color(0xFFE57373);
+  static const Color successColor = Color(0xFF81C784);
+  static const Color textColor = Color(0xFF212121);
+  static const Color secondaryTextColor = Color(0xFF757575);
   
   // Text Styles
   static const TextStyle headingStyle = TextStyle(
     fontSize: 24,
     fontWeight: FontWeight.bold,
-    color: textPrimaryColor,
+    color: textColor,
   );
   
   static const TextStyle subheadingStyle = TextStyle(
     fontSize: 18,
     fontWeight: FontWeight.w500,
-    color: textPrimaryColor,
+    color: textColor,
   );
   
   static const TextStyle bodyStyle = TextStyle(
     fontSize: 16,
-    color: textPrimaryColor,
+    color: textColor,
   );
   
   static const TextStyle captionStyle = TextStyle(
     fontSize: 14,
-    color: textSecondaryColor,
+    color: secondaryTextColor,
   );
   
   // Get ThemeData
